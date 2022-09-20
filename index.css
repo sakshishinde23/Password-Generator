@@ -1,0 +1,151 @@
+body{
+    background-color:hsl(215, 28%, 17%)
+}
+
+@font-face {
+    font-family: my_font;
+    src: url("Karla-Regular.ttf");
+}
+
+#h11{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    font-family: my_font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #10B981;
+}
+
+#h12{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 150px;
+    font-family: my_font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+
+h4{
+position: absolute;
+width: 372px;
+height: 28px;
+left: 52px;
+top: 205px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #D5D4D8;
+}
+
+#gen_pass{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+position: absolute;
+width: 191px;
+height: 42px;
+left: 52px;
+top: 284px;
+background: #10B981;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+border: none;
+}
+
+#div1{
+width: 159px;
+height: 24px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#line{
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 350px;
+    border: 1px solid #2F3E53;
+    
+}
+
+#pass1{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+}
+
+#pass2{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    
+}
+
+#div2{
+    position: absolute;
+    width: 180px;
+    height: 32px;
+    left: 10px;
+    top: 1px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+    
+}
+
+#div3{
+    position: absolute;
+    width: 192px;
+    height: 32px;
+    left: 11px;
+    top: 1px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+      
+}
+
